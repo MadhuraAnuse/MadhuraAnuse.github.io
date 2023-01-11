@@ -1,4 +1,10 @@
-# CSI-PCE and Alegria Event: Git and GitHub Workshop
+# CSI-PCE X Alegria: Git and GitHub Workshop
+
+## Git
+Git is a tool used for source code management. It is a free and open-source version control system used to handle small to very large projects efficiently. Git is used to tracking changes in the source code, enabling multiple developers to work together on non-linear development.
+
+## Github
+GitHub is an Internet hosting service for software development and version control using Git. It provides the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project.
 
 # Cloning, Editing And Hosting A Repository 
 
@@ -12,8 +18,10 @@ Once the download is complete, continue with the following steps:
 1. Run the installer and follow the prompts to install Git on your computer.
 2. Open a terminal or command prompt and type git --version to verify that Git has been installed.
 3. Configure your name and email address. Git uses this information to associate your commits with your identity. You can use the following commands to set your name and email address:
-git config --global user.name "Your Name"
-git config --global user.email "your_email@example.com"
+
+`git config --global user.name "Your Name"`
+
+`git config --global user.email "your_email@example.com"`
 
 
 
