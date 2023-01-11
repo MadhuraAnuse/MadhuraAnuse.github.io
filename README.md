@@ -94,6 +94,9 @@ After you have successfully pushed the respective repository on your GitHub prof
 3. Reload the current github page and you will be able to see the link for your website, eg. (https://username.github.io/username.github.io) .
  Note : If you find "Error 404" on the site or if u dont find the site link on your page after the refresh, Do wait for sometime until GitHub is finished deploying the entire site on the GitHub pages.
  
+---
+This site is hosted at https://yuvy20.github.io
+
  ## Contributors
  1. Yuvraj Darekar
  2. Shreeyash Patil
