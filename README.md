@@ -61,7 +61,7 @@ Use the `git clone "[Repo Link]"` command, followed by the repository URL, to cl
  
  4. Press Enter to run the command. Git will now download a copy of the repository to your computer.
 
-Carryout the above steps and clone the given repository: https://github.com/Subuthai/VerySimplePortfolio.git
+Carryout the above steps and clone the given repository: https://github.com/yuvy20/yuvy20.github.io.git
 
 
 ## How to Edit the Cloned Repository ?
