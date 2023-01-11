@@ -91,8 +91,8 @@ After you have successfully pushed the respective repository on your GitHub prof
  Note : If you find "Error 404" on the site or if u dont find the site link on your page after the refresh, Do wait for sometime until GitHub is finished deploying the entire site on the GitHub pages.
  
  ## Contributors
- Yuvraj Darekar
- Shreeyash Patil
- Varad Page
+ 1. Yuvraj Darekar
+ 2. Shreeyash Patil
+ 3. Varad Page
  
  
