@@ -28,6 +28,7 @@ Once the download is complete, continue with the following steps:
 
 ### To check configuration
 `git config -global user.name`
+
 `git config -global user.email`
 
 Git on Windows 11 (https://www.youtube.com/watch?v=JgOs70Y7jew)
@@ -54,8 +55,11 @@ Once you have Git installed, you can clone a repository by following these steps
  1. Open a terminal window or a command prompt.
  2. Navigate to the directory where you want to clone the repository (Preferably Desktop for ease of accessibility). You can use the cd command to change directories.
  3. Copy the URL of the repository you want to clone. This can usually be found on the repository's GitHub page.
-Use the <mark>git clone "[Repo Link]"</mark> command, followed by the repository URL, to clone the repository. For example: git clone https://github.com/user/repository.git
- 4. Press Enter to run the command.Git will now download a copy of the repository to your computer.
+Use the `git clone "[Repo Link]"` command, followed by the repository URL, to clone the repository. 
+
+ For example: `git clone https://github.com/user/repository.git`
+ 
+ 4. Press Enter to run the command. Git will now download a copy of the repository to your computer.
 
 Carryout the above steps and clone the given repository: https://github.com/Subuthai/VerySimplePortfolio.git
 
