@@ -1,32 +1,31 @@
 # CSI-PCE and Alegria Event: Git and GitHub Workshop
 
-## Cloning a repository 
-<br>
+# Cloning, Editing And Hosting A Repository 
 
-### How to install Git?
+## How to install Git?
 
 To clone a repository, you will need to have Git installed on your computer. If you don't already have it, you can download it from the official Git website (https://git-scm.com/downloads).
 
-<br>
+
 Once the download is complete, continue with the following steps:
 
 1. Run the installer and follow the prompts to install Git on your computer.
 2. Open a terminal or command prompt and type git --version to verify that Git has been installed.
-3. Configure your name and email address. Git uses this information to associate your commits with your identity. You can use the following commands to set your name and email address:<br>
-git config --global user.name "Your Name"<br>
+3. Configure your name and email address. Git uses this information to associate your commits with your identity. You can use the following commands to set your name and email address:
+git config --global user.name "Your Name"
 git config --global user.email "your_email@example.com"
 
-<br>
+
 
 Git on Windows 11 (https://www.youtube.com/watch?v=JgOs70Y7jew)
-<br>
+
 Git on Windows 10 (https://www.youtube.com/watch?v=cJTXh7g-uCM)
-<br>
+
 Git on MacOS (https://www.youtube.com/watch?v=hMEyBtsuAJE)
 
-<br>
 
-### How to Create Github Account?
+
+## How to Create Github Account?
 To create a GitHub account, you can follow these steps:
 
 1. Go to the GitHub website (https://github.com/) and click on the "Sign up" button in the top right corner.
@@ -35,7 +34,8 @@ To create a GitHub account, you can follow these steps:
 
 Reference video: https://www.youtube.com/watch?v=nHXw4mGoqiE
 
-<br>
+
+## How to Clone a Repository?
 Once you have Git installed, you can clone a repository by following these steps:
 
  1. Open a terminal window or a command prompt.
@@ -46,7 +46,36 @@ Use the <mark>git clone "[Repo Link]"</mark> command, followed by the repository
 
 Carryout the above steps and clone the given repository: https://github.com/Subuthai/VerySimplePortfolio.git
 
-hello 
 
+## How to Edit the Cloned Repository ?
+Once you have cloned the repository, to edit the repository Follow the given steps:
+1. Navigate the cloned repository folder on the computer 
+2. Right click the folder and select -open with code (opens the folder in VScode) 
+3. Select the html file named `index.html`. Edit the details such as Title of the page, Your Name, About Yourself, Your Skills, Your e-mail and so on in the respective tags
+4. After you are done with editing, Select -Terminal -> New Terminal from the navbar at top
+5. Run the command `git status` which will indicate that the file named "index.html" has been modified.
 
+6. Follow up with the command `git add .` This will add the file "index.html" file to the staging area .
+7. Now to commit the changes write the command `git commit -m Edit_Index.html`
 
+## Creating a new Repository and adding a remote origin 
+After You have commited the changes, Follow the given steps:
+1. Go to your GitHub Page. Click on the "+" button at the top-right corner of the page, Then click on "New Repository"
+2. Add a repository name of the format "username.github.io"
+3. After adding the name scroll-down and hit "Create Repository"
+4. Now on the repository page copy the repo link 
+5. Go to VScode and run the command `git remote remove origin` - Which removes the original remote origin of the repository .
+6. After that run the command `git remote add origin <paste the link you copied>` - This will add set the remote origin of Repo .
+7. To view the origin of the repository u can run the command `git remote show origin`
+8. Finally to push your repo on GitHub: 
+Run the command `git push origin main`
+
+## Hosting on GitHub Pages
+After you have successfully pushed the respective repository on your GitHub profile follow these steps to host your page:
+1. On the repository page, Go to settings -> pages.
+2. In the "Build and deployment" section -> branch -> select -> main -> save.
+3. Reload the current github page and you will be able to see the link for your website, eg. (https://username.github.io/username.github.io) .
+ Note : If you find "Error 404" on the site or if u dont find the site link on your page after the refresh, Do wait for sometime until GitHub is finished deploying the entire site on the GitHub pages.
+ 
+ 
+ 
