@@ -6,6 +6,9 @@ Git is a tool used for source code management. It is a free and open-source vers
 ## Github
 GitHub is an Internet hosting service for software development and version control using Git. It provides the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project.
 
+## Task Summary
+The task is to clone this repository. After which, you have to edit the html file and add your personal details. Once you have completed updating your details you have to make a commit. Then you need to create a new repo on Github, once done you need to update the remote origin of your local repo and then make a push to your newly created repo. Once your repo is ready, you have to host it using Github pages. You can follow the steps provided below to perform the task.
+
 # Cloning, Editing And Hosting A Repository 
 
 ## How to install Git?
@@ -87,5 +90,9 @@ After you have successfully pushed the respective repository on your GitHub prof
 3. Reload the current github page and you will be able to see the link for your website, eg. (https://username.github.io/username.github.io) .
  Note : If you find "Error 404" on the site or if u dont find the site link on your page after the refresh, Do wait for sometime until GitHub is finished deploying the entire site on the GitHub pages.
  
+ ## Contributors
+ Yuvraj Darekar
+ Shreeyash Patil
+ Varad Page
  
  
