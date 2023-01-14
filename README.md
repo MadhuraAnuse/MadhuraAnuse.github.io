@@ -75,7 +75,7 @@ Once you have cloned the repository, to edit the repository Follow the given ste
 ## Creating a new Repository and adding a remote origin 
 After You have committed the changes, Follow the given steps:
 1. Go to your GitHub Page. Click on the "+" button in the top-right corner of the page, Then click on "New Repository"
-2. Add a repository name of the format "username.github.io"
+2. Add a repository name of the format `"username.github.io"` example: yuvy20.github.io
 3. After adding the name scroll-down and hit "Create Repository"
 4. Now on the repository page copy the repo link 
 5. Go to VScode and run the command `git remote remove origin` - Which removes the original remote origin of the repository .
